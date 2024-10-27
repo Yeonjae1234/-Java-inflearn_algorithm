@@ -14,7 +14,8 @@ public class Main {
                 strArray[i]+=32;
             }
         }
-        // answer+=Character.isLowerCase(x)
+
+        // answer+=Character.toLowerCase(x)
         String result;
         result=new String(strArray);
         return result;
